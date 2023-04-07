@@ -1,0 +1,117 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5 ;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*colored tiles*/
+
+.x2 {
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/IXRREZ-zglkgLeXNYp956YvoKno/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2016/02/07/889/n/1922283/a806af3e_edit_img_image_14364447_1454875062_thumb/i/Zoolander-Ben-Stiller-Owen-Wilson-SNL-Skit-Video.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white
+} 
+
+.x4 {
+    background-image: url('https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl90ha1845670059tqyii6i8ofe/public');
+    background-position: center;
+    background-size: cover;
+    color: white
+}  
+   
+.x8 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d11f9b2b7868b000152f144/1570333021237-ZBQF1CZYY5GR3MYTVLI0/10980369304_46ddeb53a1_b.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.x16{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1431355610563-X4M6G45E4DIX6L4ARF72/image-asset.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.x32{
+    background-image: url('https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61X6TToE4fL._AC_UF894,1000_QL80_.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white; 
+}
+
+.x64{
+    background-image: url('https://hollywoodlife.com/wp-content/uploads/2018/06/owen-wilson-pics-7.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+} 
+
+.x128{
+    background-image: url('https://media.gq.com/photos/56b4f3ca0cc397ac698a580d/16:9/w_1280,c_limit/owen-wilson-wears-the-same-shoes.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.x256{
+    background-image: url('https://ih1.redbubble.net/image.4244304498.3371/scarf,x630-pad,600x600,f8f8f8.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.x512{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1431355610563-X4M6G45E4DIX6L4ARF72/image-asset.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
