@@ -97,7 +97,9 @@ hr {
 }
 
 .x1024{
-    background-color: #eec744;
+    background-image: url('https://prd-rteditorial.s3-us-west-2.amazonaws.com/wp-content/uploads/2015/08/Tenenbaums.jpg');
+    background-postion: center;
+    background-size: cover;
     color: white;
 }
 
